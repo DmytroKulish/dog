@@ -1,0 +1,38 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.row {
+  margin-left: 0px;
+}
+
+.col-lg-6 col-md-6 col-sm-12 {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Pacifico";
+  width: 400px;
+  padding-top: 18%;
+  padding-bottom: 3%;
+}
+
+.conteiner-fluid {
+  padding: 3% 20%;
+}
+
+.tindog {
+  font-family: "Concert one", "pacifico";
+  font-size: 2.5rem;
+}
+.buttons{
+  margin-top:65px;
+}
+.iphone{
+  transform: rotate(20deg);
+  padding-top:100px;
+  padding-left:100px;
+}
+.nav-link {
+  font-size:1.4rem;
+}
