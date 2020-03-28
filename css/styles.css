@@ -1,5 +1,6 @@
 #title {
   background-color: #ff4c68;
+  font-family:"Montserrat";
 }
 
 .row {
@@ -15,24 +16,37 @@ h1 {
   width: 400px;
   padding-top: 18%;
   padding-bottom: 3%;
+  color:white;
 }
 
 .conteiner-fluid {
-  padding: 3% 20%;
+  padding: 3% 16%;
 }
 
-.tindog {
-  font-family: "Concert one", "pacifico";
+.brand {
+  font-family: "Ubuntu", "pacifico";
   font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  padding-left: .8125rem;
+  margin-right: 1rem;
 }
-.buttons{
-  margin-top:65px;
-}
+.logo{padding-bottom:1rem;}
+
+.buttons-download{margin:5% 3% 5% 0%;}
 .iphone{
-  transform: rotate(20deg);
-  padding-top:100px;
-  padding-left:100px;
+width:60%;
+transform: rotate(20grad);
+
 }
 .nav-link {
   font-size:1.4rem;
+
 }
+.nav-item{
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.navbar{}
