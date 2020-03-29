@@ -2,7 +2,6 @@
   background-color: #ff4c68;
   font-family:"Montserrat";
 }
-
 .row {
   margin-left: 0px;
 }
@@ -38,7 +37,7 @@ h1 {
 .buttons-download{margin:5% 3% 5% 0%;}
 .iphone{
 width:60%;
-transform: rotate(20grad);
+transform: rotate(25grad);
 
 }
 .nav-link {
@@ -50,3 +49,55 @@ transform: rotate(20grad);
   padding-right: 14px;
 }
 .navbar{}
+
+#features{
+padding:10% 10%;
+}
+.box{
+  text-align: center;
+  font-family:"montserrat"
+  font-weight:bold;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+  transition: 0.5s;
+}
+#testimonials{
+
+text-align: center;
+background-color:#ef8172;
+color: #fff;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+h2{
+  font-family:"montserrat"
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+#testimonial-carouse{
+  padding: 0px;
+}
+#pricing{
+  text-align:center;
+  padding:4% 10%;
+}
