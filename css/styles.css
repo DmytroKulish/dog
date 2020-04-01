@@ -1,6 +1,7 @@
 #title {
   background-color: #ff4c68;
   font-family:"Montserrat";
+
 }
 .row {
   margin-left: 0px;
@@ -19,7 +20,7 @@ h1 {
 }
 
 .conteiner-fluid {
-  padding: 3% 16%;
+  padding: 3% 11%;
 }
 
 .brand {
@@ -38,6 +39,21 @@ h1 {
 .iphone{
 width:60%;
 transform: rotate(25grad);
+position:absolute;
+z-index:1;
+left:100px;}
+@media (max-width: 990px){
+
+  .iphone{
+    transform: rotate(0grad);
+    width:auto;
+  position:static;
+  z-index:1;
+  margin-left:0%;
+  margin-top:3%;
+
+
+}
 
 }
 .nav-link {
@@ -52,6 +68,10 @@ transform: rotate(25grad);
 
 #features{
 padding:10% 10%;
+background-color: white;
+position: relative;
+z-index: 2;
+
 }
 .box{
   text-align: center;
@@ -100,4 +120,32 @@ h2{
 #pricing{
   text-align:center;
   padding:4% 10%;
+}
+.pricing-column{
+  padding:3% 5%;
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding:8%;
+
+}
+.cta1{
+  font-weight: bold;
+  color:white;
+  font-size:3.5rem;
+  margin:3%;
+}
+#footer{
+  text-align: center;
+  padding:3% 0 2%;
+}
+.footer-text{
+  color:grey;
+}
+.ctabtn{
+  margin:1%;
+}
+.fab-1{
+  margin:0.5rem;
 }
