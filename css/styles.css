@@ -13,7 +13,7 @@
 
 h1 {
   font-family: "Pacifico";
-  width: 400px;
+  width: 600px;
   padding-top: 18%;
   padding-bottom: 3%;
   color:white;
@@ -46,23 +46,25 @@ left:100px;}
 
   .iphone{
     transform: rotate(0grad);
-    width:auto;
+    width:83%;
   position:static;
   z-index:1;
-  margin-left:20%;
+  margin-left:10%;
   margin-top:3%;
+
 }}
 @media (max-width: 990px){
 
   .display-4{
-      margin-left:20%;
+      margin-left:10%;
+      font-size: 5rem;
 
 
 }}
 @media (max-width: 990px){
 
   .buttons-download-1{
-      margin-left:20%;
+      margin-left:10%;
 
 
 }}
